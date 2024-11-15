@@ -3,6 +3,13 @@ from discord.ext import commands, tasks
 import json
 import os
 from datetime import datetime
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from the .env file
+load_dotenv()
+
+# Retrieve BOT_KEY from the environment
 bot_key = os.getenv('BOT_KEY')
 # Initialize the bot
 intents = discord.Intents.default()
