@@ -183,4 +183,4 @@ async def on_ready():
     check_end_of_month.start()  # Start the end-of-month task loop
 
 # Run the bot
-bot.run("MTMwNjY0Mjk3NTQxNzE3NjE2Ng.G65Edp.h20AKAzMW03uY7kmGxGDEDfoal5QIJWnbAc5Gs")
+bot.run(bot_key)
